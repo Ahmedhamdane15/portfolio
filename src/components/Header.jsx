@@ -18,6 +18,11 @@ const Header = () => {
 								Contact
 							</Link>
 						</li>
+						<li>
+							<Link to="/temoignages" className="hover:text-gray-400">
+								Témoignages
+							</Link>
+						</li>
 					</ul>
 				</nav>
 			</div>
