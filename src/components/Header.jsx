@@ -6,6 +6,15 @@ const Header = () => {
 				<Link to="/" className="text-2xl font-bold">
 					Accueil
 				</Link>
+				<nav>
+					<ul className="flex space-x-4 items-center">
+						<li>
+							<Link to="/contact" className="hover:text-gray-400">
+								Contact
+							</Link>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</header>
 	);
